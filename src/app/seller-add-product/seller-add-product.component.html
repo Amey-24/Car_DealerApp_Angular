@@ -1,0 +1,32 @@
+<div class="add-product">
+    <h1>Add New Product</h1>
+    <p class="message-p">{{addProductMessage}}</p>
+    <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="common-form">
+      <input type="text" class="form-input" placeholder="Enter Car Name" name="name" ngModel/>
+      <select class="form-input" name="category" id="category" ngModel >
+        <option value="sedan">Sedan</option>
+        <option value="hatchback">Hatchback</option>
+        <option value="suv">SUV</option>
+        <option value="ev">EV</option>
+      </select>
+      <select class="form-input" name="brand" id="brand" ngModel >
+        <option value="maruti suzuki">Maruti suzuki</option>
+        <option value="hyundai">Hyundai</option>
+        <option value="tata motors">Tata Motors</option>mahindra
+        <option value="mahindra">Mahindra</option>
+        <option value="kia">Kia</option>
+        <option value="toyota">Toyota</option>
+        <option value="honda">Honda</option>
+        <option value="renault">Renault</option>
+        <option value="skoda">Skoda</option>
+        <option value="mg">MG</option>
+      </select>
+      <input type="text" class="form-input" placeholder="Enter Variant" name="variant" ngModel/>
+      <input type="text" class="form-input" placeholder="Enter Price" name="price" ngModel/>
+      <input type="text" class="form-input" placeholder="Enter Color" name="color" ngModel/>
+      <textarea type="text" class="form-input" placeholder="Enter Description" name="description" ngModel></textarea>
+      <input type="text" class="form-input" placeholder="Enter Product Image URL" name="image" ngModel/>
+      <button class="form-button">Add Product</button>
+    </form>
+  </div>
+  

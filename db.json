@@ -1,0 +1,102 @@
+{
+  "seller": [
+    {
+      "name": "Amey Tamhankar",
+      "email": "amey@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "User Tester",
+      "email": "user@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Ad",
+      "password": "abc@123",
+      "email": "ab@seller",
+      "id": 3
+    },
+    {
+      "name": "Amanda",
+      "password": "abc@123",
+      "email": "amanda@123",
+      "id": 4
+    },
+    {
+      "name": "Bro",
+      "password": "abc@123",
+      "email": "Bro@test.com",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "Swift ",
+      "category": "hatchback",
+      "brand": "Maruti Suzuki",
+      "variant": "ZXI",
+      "price": "500000",
+      "color": "white",
+      "description": "This is a Brand New Car",
+      "image": "https://imgd.aeplcdn.com/1056x594/n/zill3ra_1429634.jpg",
+      "id": 1
+    },
+    {
+      "name": "Aura",
+      "category": "sedan",
+      "brand": "hyundai",
+      "variant": "SM",
+      "price": "900000",
+      "color": "White",
+      "description": "Aura CNG Brand New",
+      "image": "https://static.autox.com/uploads/2023/01/Hyundai-Aura-2023-Polar-White.jpg",
+      "id": 2
+    },
+    {
+      "name": "XUV 700",
+      "category": "suv",
+      "brand": "mahindra",
+      "variant": "AXL7",
+      "price": "1800000",
+      "color": "Midenight Blue",
+      "description": "Best SUV in this Segment",
+      "image": "https://assets.whichcar.com.au/image/private/s--WBWtqCYQ--/c_fill,f_auto,q_auto:good/Mahindra_XUV700_India_reveal6.webp",
+      "id": 3
+    },
+    {
+      "name": "Nexon",
+      "category": "ev",
+      "brand": "tata motors",
+      "variant": "EVE",
+      "price": "1500000",
+      "color": "Black",
+      "description": "Indian's Most Loved EV",
+      "image": "https://imgd-ct.aeplcdn.com/1056x660/n/thehl4a_1524875.jpg?q=75",
+      "id": 4
+    },
+    {
+      "name": "Civic",
+      "category": "sedan",
+      "brand": "honda",
+      "variant": "I-Vtech",
+      "price": "2500000",
+      "color": "Red",
+      "description": "Best Sedan ",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.eLaWltLGxwkf_lOx5UMlwQHaEA&pid=Api&P=0&h=180",
+      "id": 5
+    },
+    {
+      "name": "Thar",
+      "category": "suv",
+      "brand": "mahindra",
+      "variant": "4x4",
+      "price": "1500000",
+      "color": "Black",
+      "description": "Best 4 x 4",
+      "image": "https://autonexa.com/wp-content/uploads/2021/04/thar.jpg",
+      "id": 6
+    }
+  ]
+}
